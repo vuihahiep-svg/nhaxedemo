@@ -1,9 +1,9 @@
-/** OpenCalf embed — nhaxe demo (passed to window.OpenCalfConfig / OpenCalf.init). */
+/** OpenCalf embed — nhaxe demo (sync with `WIDGET_EMBED.md` public snippet). */
 export const OPEN_CALF_WIDGET_CONFIG = {
-  agentId: "699d0b7f-60b5-42eb-8902-4234b52be142",
+  agentId: "d7b60d03-f611-463a-bdd0-872f391c0514",
   apiBase: "https://api.achain.site/api/v1",
   primaryColor: "#2563eb",
-  title: "Nhà xe Út Chí AI Agent",
+  title: "Nhà xe Út Chí",
   layout: "side-panel",
   panelSide: "right",
   voiceEnabled: false,
@@ -12,7 +12,7 @@ export const OPEN_CALF_WIDGET_CONFIG = {
   avatarInitial: "N",
   sttBackend: "web_builtin",
   ttsBackend: "web_builtin",
-  primaryLanguage: "vi",
+  primaryLanguage: "en",
   launcherMode: "fab",
 } as const;
 
